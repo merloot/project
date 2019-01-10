@@ -1,0 +1,1623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a2bf9143-f0c0-47dd-b3bc-c80f5d14edef" name="Default" comment="&quot;Второй коммит&quot;-добавлено api">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/console/controllers/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/admin/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/api/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/api/uploads/friend_avatar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/uploads/friend_avatar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/merloot.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/project2.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/.bowerrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/Vagrantfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/api/codeception.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/api/config/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/api/config/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/api/config/main.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/api/config/params.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/api/config/test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/api/modules/v1/controllers/LoginController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/api/modules/v1/controllers/PostController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/api/modules/v1/models/Post.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/api/modules/v1/models/Token.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/assets/AppAsset.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/codeception.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/config/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/config/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/config/main.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/config/params.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/config/test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/controllers/PostController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/controllers/SiteController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/models/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/runtime/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/tests/_bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/tests/_data/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/tests/_data/login_data.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/tests/_output/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/tests/_support/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/tests/_support/FunctionalTester.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/tests/_support/UnitTester.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/tests/functional.suite.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/tests/functional/LoginCest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/tests/functional/_bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/tests/unit.suite.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/tests/unit/_bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/views/layouts/content.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/views/layouts/header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/views/layouts/left.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/views/layouts/main-login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/views/layouts/main.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/views/post/_form.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/views/post/_search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/views/post/create.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/views/post/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/views/post/update.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/views/post/view.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/views/site/error.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/views/site/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/backend/views/site/login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/codeception.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/common/codeception.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/common/config/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/common/config/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/common/config/main.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/common/config/params.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/common/config/test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/common/fixtures/UserFixture.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/common/mail/layouts/html.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/common/mail/layouts/text.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/common/mail/passwordResetToken-html.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/common/mail/passwordResetToken-text.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/common/models/LoginForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/common/models/Post.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/common/models/PostSearch.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/common/models/User.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/common/tests/_bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/common/tests/_data/user.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/common/tests/_output/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/common/tests/_support/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/common/tests/_support/UnitTester.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/common/tests/unit.suite.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/common/tests/unit/models/LoginFormTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/common/widgets/Alert.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/console/config/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/console/config/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/console/config/main.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/console/config/params.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/console/migrations/m130524_201442_init.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/console/models/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/console/runtime/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/environments/dev/backend/config/main-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/environments/dev/backend/config/params-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/environments/dev/backend/config/test-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/environments/dev/backend/web/index-test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/environments/dev/backend/web/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/environments/dev/backend/web/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/environments/dev/common/config/main-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/environments/dev/common/config/params-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/environments/dev/common/config/test-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/environments/dev/console/config/main-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/environments/dev/console/config/params-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/environments/dev/frontend/config/main-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/environments/dev/frontend/config/params-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/environments/dev/frontend/config/test-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/environments/dev/frontend/web/index-test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/environments/dev/frontend/web/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/environments/dev/frontend/web/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/environments/dev/yii" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/environments/dev/yii_test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/environments/dev/yii_test.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/environments/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/environments/prod/backend/config/main-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/environments/prod/backend/config/params-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/environments/prod/backend/web/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/environments/prod/backend/web/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/environments/prod/common/config/main-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/environments/prod/common/config/params-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/environments/prod/console/config/main-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/environments/prod/console/config/params-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/environments/prod/frontend/config/main-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/environments/prod/frontend/config/params-local.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/environments/prod/frontend/web/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/environments/prod/frontend/web/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/environments/prod/yii" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/assets/AppAsset.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/codeception.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/config/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/config/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/config/main.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/config/params.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/config/test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/controllers/PostController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/controllers/SiteController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/models/ContactForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/models/PasswordResetRequestForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/models/ResetPasswordForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/models/SignupForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/runtime/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/tests/_bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/tests/_data/login_data.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/tests/_data/user.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/tests/_output/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/tests/_support/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/tests/_support/FunctionalTester.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/tests/_support/UnitTester.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/tests/acceptance.suite.yml.example" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/tests/acceptance/HomeCest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/tests/acceptance/_bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/tests/functional.suite.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/tests/functional/AboutCest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/tests/functional/ContactCest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/tests/functional/HomeCest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/tests/functional/LoginCest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/tests/functional/SignupCest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/tests/functional/_bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/tests/unit.suite.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/tests/unit/_bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/tests/unit/models/ContactFormTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/tests/unit/models/PasswordResetRequestFormTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/tests/unit/models/ResetPasswordFormTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/tests/unit/models/SignupFormTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/views/layouts/main.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/views/post/all.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/views/post/one.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/views/site/about.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/views/site/contact.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/views/site/error.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/views/site/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/views/site/login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/views/site/requestPasswordResetToken.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/views/site/resetPassword.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/frontend/views/site/signup.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/init" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/init.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/requirements.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/vagrant/config/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/vagrant/config/vagrant-local.example.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/vagrant/nginx/app.conf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/vagrant/nginx/log/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/vagrant/provision/always-as-root.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/vagrant/provision/common.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/vagrant/provision/once-as-root.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/vagrant/provision/once-as-vagrant.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/yii.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/admin/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/admin/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/admin/assets/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/admin/css/site.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/api/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/api/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/api/assets/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/api/css/site.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/assets/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/css/site.css" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="false" />
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="project2" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Token.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc/api/modules/v1/models/Token.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="49" column="34" lean-forward="false" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="34" />
+              <folding>
+                <element signature="e#31#39#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mvc/api/modules/v1/controllers/PostController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc/api/config/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="64" column="18" lean-forward="false" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Post.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc/api/modules/v1/models/Post.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc/api/modules/v1/controllers/LoginController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding>
+                <element signature="e#47#55#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>username</find>
+      <find>Alexander Pierce</find>
+      <find>email</find>
+      <find>fron</find>
+      <find>aut</find>
+      <find>validate</find>
+      <find>name</find>
+      <find>user</find>
+      <find>regu</find>
+      <find>login</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/common/config/main-local.php" />
+        <option value="$PROJECT_DIR$/console/migrations/m130524_201442_init.php" />
+        <option value="$PROJECT_DIR$/public_html/.htaccess" />
+        <option value="$PROJECT_DIR$/public_html/admin/.htaccess" />
+        <option value="$PROJECT_DIR$/public_html/admin/index.php" />
+        <option value="$PROJECT_DIR$/mvc/frontend/views/posts/all.php" />
+        <option value="$PROJECT_DIR$/public_html/index.php" />
+        <option value="$PROJECT_DIR$/mvc/frontend/views/posts/one.php" />
+        <option value="$PROJECT_DIR$/mvc/frontend/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/mvc/frontend/config/main.php" />
+        <option value="$PROJECT_DIR$/mvc/frontend/views/post/one.php" />
+        <option value="$PROJECT_DIR$/mvc/frontend/views/site/index.php" />
+        <option value="$PROJECT_DIR$/mvc/backend/config/main.php" />
+        <option value="$PROJECT_DIR$/mvc/backend/views/layouts/header.php" />
+        <option value="$PROJECT_DIR$/mvc/backend/views/layouts/left.php" />
+        <option value="$PROJECT_DIR$/mvc/common/models/PostSearch.php" />
+        <option value="$PROJECT_DIR$/mvc/backend/views/site/login.php" />
+        <option value="$PROJECT_DIR$/mvc/frontend/views/site/login.php" />
+        <option value="$PROJECT_DIR$/mvc/api/models/Post.php" />
+        <option value="$PROJECT_DIR$/mvc/api/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/mvc/backend/controllers/PostController.php" />
+        <option value="$PROJECT_DIR$/mvc/frontend/models/SignupForm.php" />
+        <option value="$PROJECT_DIR$/mvc/api/controllers/PostController.php" />
+        <option value="$PROJECT_DIR$/mvc/composer.json" />
+        <option value="$PROJECT_DIR$/mvc/common/config/main.php" />
+        <option value="$PROJECT_DIR$/mvc/backend/views/post/index.php" />
+        <option value="$PROJECT_DIR$/mvc/common/models/Post.php" />
+        <option value="$PROJECT_DIR$/mvc/common/config/bootstrap.php" />
+        <option value="$PROJECT_DIR$/mvc/backend/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/mvc/frontend/controllers/PostController.php" />
+        <option value="$PROJECT_DIR$/mvc/frontend/views/post/all.php" />
+        <option value="$PROJECT_DIR$/mvc/common/models/Profile.php" />
+        <option value="$PROJECT_DIR$/mvc/backend/views/post/_form.php" />
+        <option value="$PROJECT_DIR$/mvc/frontend/views/profile/_form.php" />
+        <option value="$PROJECT_DIR$/mvc/frontend/views/layouts/main.php" />
+        <option value="$PROJECT_DIR$/mvc/frontend/views/profile/create.php" />
+        <option value="$PROJECT_DIR$/mvc/frontend/views/profile/index.php" />
+        <option value="$PROJECT_DIR$/mvc/common/models/User.php" />
+        <option value="$PROJECT_DIR$/mvc/common/models/LoginForm.php" />
+        <option value="$PROJECT_DIR$/mvc/frontend/views/site/signup.php" />
+        <option value="$PROJECT_DIR$/mvc/api/modules/v1/models/Token.php" />
+        <option value="$PROJECT_DIR$/mvc/api/modules/v1/Module.php" />
+        <option value="$PROJECT_DIR$/public_html/api/.htaccess" />
+        <option value="$PROJECT_DIR$/public_html/api/index.php" />
+        <option value="$PROJECT_DIR$/mvc/api/modules/v1/controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/mvc/api/config/main.php" />
+        <option value="$PROJECT_DIR$/mvc/api/modules/v1/models/Post.php" />
+        <option value="$PROJECT_DIR$/mvc/api/modules/v1/models/User.php" />
+        <option value="$PROJECT_DIR$/mvc/api/modules/v1/controllers/LoginController.php" />
+        <option value="$PROJECT_DIR$/mvc/api/modules/v1/models/Login.php" />
+        <option value="$PROJECT_DIR$/mvc/api/modules/v1/controllers/PostController.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7.0" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Code StylePHP</id>
+          </State>
+          <State>
+            <id>GeneralPHP</id>
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PhpDeprecationInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v1" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v1" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v1" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../board" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/OSPanel/domains/project2/mvc/common/models/Post.php" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\project2\mvc" />
+      <recent name="C:\OSPanel\domains\project2\public_html\admin" />
+      <recent name="C:\OSPanel\domains\project2\public_html" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\project2\mvc\backend\views\site" />
+      <recent name="C:\OSPanel\domains\project2\mvc\backend\views\layouts" />
+      <recent name="C:\OSPanel\domains\project2\public_html\admin" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="api.project.local" />
+                <option name="name" value="_csrf-frontend" />
+                <option name="path" value="/" />
+                <option name="value" value="582959df3dfd028cb0fc531fe5f24d8f6f254d1a3129e71eb6b00a96c599bcdba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22sjY3xyW5RXhR4eOOlZ6kZ5f0oyL4FLbv%22%3B%7D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="api.project.local" />
+                <option name="name" value="advanced-frontend" />
+                <option name="path" value="/" />
+                <option name="value" value="a11ri6jr6egbrbhg9u8ra1p2t3" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="api.project.local" />
+                <option name="name" value="_csrf" />
+                <option name="path" value="/" />
+                <option name="value" value="c45550231b0db7fc3935501ac746750ef34cbf51232ea4d0a236df28f4a441dca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225IAZTFHHNwcpwQ9L9amd2DZvlctGLFo5%22%3B%7D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="api.project.local" />
+                <option name="name" value="advanced-api" />
+                <option name="path" value="/" />
+                <option name="value" value="dr6oggobi3rn08rdc21hitcf64" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://api.project.local" />
+          <option name="urlPath" value="v1/logins" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{email: &quot;merloot@mail.ru&quot; password: &quot;1239782&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="api.project.local" />
+                <option name="name" value="_csrf-frontend" />
+                <option name="path" value="/" />
+                <option name="value" value="582959df3dfd028cb0fc531fe5f24d8f6f254d1a3129e71eb6b00a96c599bcdba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22sjY3xyW5RXhR4eOOlZ6kZ5f0oyL4FLbv%22%3B%7D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="api.project.local" />
+                <option name="name" value="advanced-frontend" />
+                <option name="path" value="/" />
+                <option name="value" value="a11ri6jr6egbrbhg9u8ra1p2t3" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="api.project.local" />
+                <option name="name" value="_csrf" />
+                <option name="path" value="/" />
+                <option name="value" value="c45550231b0db7fc3935501ac746750ef34cbf51232ea4d0a236df28f4a441dca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225IAZTFHHNwcpwQ9L9amd2DZvlctGLFo5%22%3B%7D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="api.project.local" />
+                <option name="name" value="advanced-api" />
+                <option name="path" value="/" />
+                <option name="value" value="dr6oggobi3rn08rdc21hitcf64" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://api.project.local" />
+          <option name="urlPath" value="v1/login" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="api.project.local" />
+                <option name="name" value="_csrf-frontend" />
+                <option name="path" value="/" />
+                <option name="value" value="582959df3dfd028cb0fc531fe5f24d8f6f254d1a3129e71eb6b00a96c599bcdba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22sjY3xyW5RXhR4eOOlZ6kZ5f0oyL4FLbv%22%3B%7D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="api.project.local" />
+                <option name="name" value="advanced-frontend" />
+                <option name="path" value="/" />
+                <option name="value" value="a11ri6jr6egbrbhg9u8ra1p2t3" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="api.project.local" />
+                <option name="name" value="_csrf" />
+                <option name="path" value="/" />
+                <option name="value" value="c45550231b0db7fc3935501ac746750ef34cbf51232ea4d0a236df28f4a441dca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225IAZTFHHNwcpwQ9L9amd2DZvlctGLFo5%22%3B%7D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="api.project.local" />
+                <option name="name" value="advanced-api" />
+                <option name="path" value="/" />
+                <option name="value" value="dr6oggobi3rn08rdc21hitcf64" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://api.project.local" />
+          <option name="urlPath" value="v1/logins" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="api.project.local" />
+                <option name="name" value="_csrf-frontend" />
+                <option name="path" value="/" />
+                <option name="value" value="582959df3dfd028cb0fc531fe5f24d8f6f254d1a3129e71eb6b00a96c599bcdba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22sjY3xyW5RXhR4eOOlZ6kZ5f0oyL4FLbv%22%3B%7D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="api.project.local" />
+                <option name="name" value="advanced-frontend" />
+                <option name="path" value="/" />
+                <option name="value" value="a11ri6jr6egbrbhg9u8ra1p2t3" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="api.project.local" />
+                <option name="name" value="_csrf" />
+                <option name="path" value="/" />
+                <option name="value" value="c45550231b0db7fc3935501ac746750ef34cbf51232ea4d0a236df28f4a441dca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225IAZTFHHNwcpwQ9L9amd2DZvlctGLFo5%22%3B%7D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="api.project.local" />
+                <option name="name" value="advanced-api" />
+                <option name="path" value="/" />
+                <option name="value" value="dr6oggobi3rn08rdc21hitcf64" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://api.project.local" />
+          <option name="urlPath" value="v1/users" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="api.project.local" />
+                <option name="name" value="_csrf-frontend" />
+                <option name="path" value="/" />
+                <option name="value" value="582959df3dfd028cb0fc531fe5f24d8f6f254d1a3129e71eb6b00a96c599bcdba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22sjY3xyW5RXhR4eOOlZ6kZ5f0oyL4FLbv%22%3B%7D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="api.project.local" />
+                <option name="name" value="advanced-frontend" />
+                <option name="path" value="/" />
+                <option name="value" value="a11ri6jr6egbrbhg9u8ra1p2t3" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="api.project.local" />
+                <option name="name" value="_csrf" />
+                <option name="path" value="/" />
+                <option name="value" value="c45550231b0db7fc3935501ac746750ef34cbf51232ea4d0a236df28f4a441dca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225IAZTFHHNwcpwQ9L9amd2DZvlctGLFo5%22%3B%7D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="api.project.local" />
+                <option name="name" value="advanced-api" />
+                <option name="path" value="/" />
+                <option name="value" value="dr6oggobi3rn08rdc21hitcf64" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://api.project.local" />
+          <option name="urlPath" value="/posts" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="api.project.local" />
+                <option name="name" value="_csrf-frontend" />
+                <option name="path" value="/" />
+                <option name="value" value="582959df3dfd028cb0fc531fe5f24d8f6f254d1a3129e71eb6b00a96c599bcdba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22sjY3xyW5RXhR4eOOlZ6kZ5f0oyL4FLbv%22%3B%7D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="api.project.local" />
+                <option name="name" value="advanced-frontend" />
+                <option name="path" value="/" />
+                <option name="value" value="a11ri6jr6egbrbhg9u8ra1p2t3" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://api.project.local" />
+          <option name="urlPath" value="/post/1" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="api.project.local" />
+                <option name="name" value="_csrf-frontend" />
+                <option name="path" value="/" />
+                <option name="value" value="582959df3dfd028cb0fc531fe5f24d8f6f254d1a3129e71eb6b00a96c599bcdba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22sjY3xyW5RXhR4eOOlZ6kZ5f0oyL4FLbv%22%3B%7D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="api.project.local" />
+                <option name="name" value="advanced-frontend" />
+                <option name="path" value="/" />
+                <option name="value" value="a11ri6jr6egbrbhg9u8ra1p2t3" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://api.project.local" />
+          <option name="urlPath" value="/post/1" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="api.project.local" />
+                <option name="name" value="_csrf-frontend" />
+                <option name="path" value="/" />
+                <option name="value" value="582959df3dfd028cb0fc531fe5f24d8f6f254d1a3129e71eb6b00a96c599bcdba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22sjY3xyW5RXhR4eOOlZ6kZ5f0oyL4FLbv%22%3B%7D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="api.project.local" />
+                <option name="name" value="advanced-frontend" />
+                <option name="path" value="/" />
+                <option name="value" value="a11ri6jr6egbrbhg9u8ra1p2t3" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://api.project.local" />
+          <option name="urlPath" value="/post/1" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="api.project.local" />
+                <option name="name" value="_csrf-frontend" />
+                <option name="path" value="/" />
+                <option name="value" value="582959df3dfd028cb0fc531fe5f24d8f6f254d1a3129e71eb6b00a96c599bcdba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22sjY3xyW5RXhR4eOOlZ6kZ5f0oyL4FLbv%22%3B%7D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="api.project.local" />
+                <option name="name" value="advanced-frontend" />
+                <option name="path" value="/" />
+                <option name="value" value="a11ri6jr6egbrbhg9u8ra1p2t3" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://api.project.local" />
+          <option name="urlPath" value="/posts" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://api.project.local" />
+          <option name="urlPath" value="/posts" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Behat.project2">
+    <configuration default="false" name="project2" type="PhpBehatConfigurationType" factoryName="Behat" temporary="true">
+      <BehatRunner directory="$PROJECT_DIR$" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Behat.project2" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Behat.project2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2bf9143-f0c0-47dd-b3bc-c80f5d14edef" name="Default" comment="" />
+      <created>1542436408243</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542436408243</updated>
+      <workItem from="1542436409824" duration="6544000" />
+      <workItem from="1542455021519" duration="25664000" />
+      <workItem from="1542637395297" duration="352000" />
+      <workItem from="1542697954890" duration="2830000" />
+      <workItem from="1543488162235" duration="12564000" />
+      <workItem from="1543841699622" duration="2489000" />
+      <workItem from="1543926697987" duration="2059000" />
+      <workItem from="1543934967061" duration="638000" />
+      <workItem from="1544007469112" duration="2104000" />
+      <workItem from="1544181629275" duration="12175000" />
+      <workItem from="1544367682609" duration="1992000" />
+      <workItem from="1544444707111" duration="8000" />
+      <workItem from="1544512326337" duration="605000" />
+      <workItem from="1544529726751" duration="2425000" />
+      <workItem from="1544974575777" duration="736000" />
+      <workItem from="1545734288278" duration="6442000" />
+      <workItem from="1545810878990" duration="7139000" />
+      <workItem from="1545834200358" duration="2768000" />
+      <workItem from="1545918752645" duration="937000" />
+      <workItem from="1545993509012" duration="703000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="91174000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3511327" sideWeight="0.49589685" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2540453" sideWeight="0.5041032" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282532" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2508117" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mvc/api/views/site/index.php" />
+    <entry file="file://$PROJECT_DIR$/mvc/api/models/Post.php" />
+    <entry file="file://$PROJECT_DIR$/mvc/api/controllers/SiteController.php" />
+    <entry file="file://$PROJECT_DIR$/mvc/vendor/yiisoft/yii2/db/BaseActiveRecord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="954" column="8" lean-forward="false" selection-start-line="946" selection-start-column="7" selection-end-line="954" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/backend/views/layouts/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="232" column="49" lean-forward="false" selection-start-line="232" selection-start-column="49" selection-end-line="232" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/backend/views/layouts/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1863">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/backend/views/layouts/left.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="35" column="73" lean-forward="false" selection-start-line="35" selection-start-column="73" selection-end-line="35" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/frontend/models/ContactForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-483">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/api/controllers/PostController.php" />
+    <entry file="file://$PROJECT_DIR$/mvc/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="49" lean-forward="false" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/common/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/backend/views/post/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/backend/views/post/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="43" column="14" lean-forward="true" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/common/config/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="48" lean-forward="false" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/common/models/PostSearch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="48" column="3" lean-forward="false" selection-start-line="48" selection-start-column="3" selection-end-line="53" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/frontend/views/post/all.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/backend/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="120" column="35" lean-forward="false" selection-start-line="120" selection-start-column="35" selection-end-line="120" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/backend/controllers/PostController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1837">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/frontend/views/profile/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/frontend/views/profile/index.php" />
+    <entry file="file://$PROJECT_DIR$/mvc/common/models/Profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="47" column="38" lean-forward="false" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/frontend/views/profile/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="28" column="49" lean-forward="false" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/frontend/views/profile/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/frontend/controllers/PostController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="30" column="37" lean-forward="false" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/backend/views/post/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/frontend/views/site/resetPassword.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/common/models/LoginForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="73" column="45" lean-forward="false" selection-start-line="73" selection-start-column="45" selection-end-line="73" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/common/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-690">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/frontend/views/site/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/frontend/views/site/signup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="30" column="34" lean-forward="false" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/frontend/models/SignupForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1291">
+          <caret line="58" column="20" lean-forward="false" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/api/config/params.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/api/config/main-local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/api/config/params-local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/api/config/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/api/config/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/api/modules/v1/Module.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="47" lean-forward="false" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/api/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/api/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/frontend/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="49" column="18" lean-forward="false" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/frontend/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1495">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/common/models/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="23" />
+          <folding>
+            <element signature="e#33#41#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/api/modules/v1/controllers/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#47#55#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/api/modules/v1/models/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/api/modules/v1/controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding>
+            <element signature="e#45#66#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/api/modules/v1/models/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/api/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="64" column="18" lean-forward="false" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/api/modules/v1/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#41#65#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/api/modules/v1/models/Token.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="49" column="34" lean-forward="false" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="34" />
+          <folding>
+            <element signature="e#31#39#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/api/modules/v1/controllers/PostController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
