@@ -27,22 +27,22 @@ class LoginController extends Controller
                     'Access-Control-Request-Headers' => ['*'],
                 ],
             ],
-            'verbs' => [
-                'class' => VerbFilter::className(),
-                'actions' => [
-                    'index'=>['post', 'options'],
-                ]
-            ],
-            'access' => [
-                'class' => AccessControl::className(),
-                'rules' => [
-                    [
-                        'allow' => true,
-                        'actions' => [ 'index'],
-                        'roles' => ['?'],
-                    ],
-                ],
-            ],
+//            'verbs' => [
+//                'class' => VerbFilter::className(),
+//                'actions' => [
+//                    'index'=>['post', 'options'],
+//                ]
+//            ],
+//            'access' => [
+//                'class' => AccessControl::className(),
+//                'rules' => [
+//                    [
+//                        'allow' => true,
+//                        'actions' => [ 'index'],
+//                        'roles' => ['*'],
+//                    ],
+//                ],
+//            ],
             'contentNegotiator' => [
                 'class' => ContentNegotiator::className(),
                 'formats' => [
@@ -63,15 +63,7 @@ class LoginController extends Controller
     {
         $this->enableCsrfValidation = false;
         $params = Yii::$app->request->getBodyParams();
-        $user = User::findByEmail(Yii::$app->request->getBodyParam('login'));
-        if (!$user) {
-            $user = User::findByUsername(Yii::$app->request->getBodyParam('login'));
-            if (!$user)
-                $result =  [
-                    'success' => 0,
-                    'message' => 'No such user found'
-                ];
-        }
+        $user = User::findByEmail(Yii::$app->request->getBodyParam('email'));
         if($user)
             if (!$user->validatePassword(Yii::$app->request->getBodyParam('password'))) {
                 $result =   [
@@ -99,16 +91,7 @@ class LoginController extends Controller
     {
         $this->enableCsrfValidation = false;
         $user = User::findByEmail(Yii::$app->request->getBodyParam('email'));
-        if (!$user) {
-            $user = User::findByUsername(Yii::$app->request->getBodyParam('username'));
-            if ($user)
-                $result =  [
-                    'success' => 0,
-                    'message' => 'User with this username already exist',
-                    'code' => 'username_busy'
-                ];
-        }
-        else{
+        {
             $result =  [
                 'success' => 0,
                 'message' => 'User with this email already exist',
@@ -122,7 +105,7 @@ class LoginController extends Controller
             $user->setPassword(Yii::$app->request->getBodyParam('password'));
             $user->generateAuthKey();
             $user->save();
-            $token = $this->genegateToken($user->id);
+            $token = $this->generateToken($user->id);
             $result =   [
                 'success' => 1,
                 'username' =>  $user->username,

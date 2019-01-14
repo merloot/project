@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.2">
+    <root id="1"/>
+    <schema id="2" parent="1" name="board">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="crysis"/>
+    <schema id="4" parent="1" name="information_schema"/>
+    <schema id="5" parent="1" name="magazin"/>
+    <schema id="6" parent="1" name="memepedia"/>
+    <schema id="7" parent="1" name="multi_login"/>
+    <schema id="8" parent="1" name="mysql"/>
+    <schema id="9" parent="1" name="performance_schema"/>
+    <schema id="10" parent="1" name="project"/>
+    <table id="11" parent="2" name="Profile"/>
+    <table id="12" parent="2" name="auth_assignment"/>
+    <table id="13" parent="2" name="auth_item"/>
+    <table id="14" parent="2" name="auth_item_child"/>
+    <table id="15" parent="2" name="auth_rule"/>
+    <table id="16" parent="2" name="categories"/>
+    <table id="17" parent="2" name="city"/>
+    <table id="18" parent="2" name="image"/>
+    <table id="19" parent="2" name="migration"/>
+    <table id="20" parent="2" name="poster"/>
+    <table id="21" parent="2" name="user"/>
+    <column id="22" parent="11" name="p_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="23" parent="11" name="p_id_user">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="24" parent="11" name="p_name">
+      <Position>3</Position>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="25" parent="11" name="p_phone">
+      <Position>4</Position>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="26" parent="11" name="p_description">
+      <Position>5</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="27" parent="11" name="p_id_city">
+      <Position>6</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="28" parent="11" name="p_image">
+      <Position>7</Position>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <key id="29" parent="11" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>p_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="30" parent="12" name="item_name">
+      <Position>1</Position>
+      <DataType>varchar(64)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="31" parent="12" name="user_id">
+      <Position>2</Position>
+      <DataType>varchar(64)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="32" parent="12" name="created_at">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <index id="33" parent="12" name="auth_assignment_user_id_idx">
+      <ColNames>user_id</ColNames>
+    </index>
+    <key id="34" parent="12" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>item_name
+user_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="35" parent="12" name="auth_assignment_ibfk_1">
+      <ColNames>item_name</ColNames>
+      <RefSchemaName>board</RefSchemaName>
+      <RefTableName>auth_item</RefTableName>
+      <RefColNames>name</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="36" parent="13" name="name">
+      <Position>1</Position>
+      <DataType>varchar(64)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="37" parent="13" name="type">
+      <Position>2</Position>
+      <DataType>smallint(6)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="38" parent="13" name="description">
+      <Position>3</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="39" parent="13" name="rule_name">
+      <Position>4</Position>
+      <DataType>varchar(64)|0</DataType>
+    </column>
+    <column id="40" parent="13" name="data">
+      <Position>5</Position>
+      <DataType>blob|0</DataType>
+    </column>
+    <column id="41" parent="13" name="created_at">
+      <Position>6</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="42" parent="13" name="updated_at">
+      <Position>7</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <index id="43" parent="13" name="idx-auth_item-type">
+      <ColNames>type</ColNames>
+    </index>
+    <index id="44" parent="13" name="rule_name">
+      <ColNames>rule_name</ColNames>
+    </index>
+    <key id="45" parent="13" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>name</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="46" parent="13" name="auth_item_ibfk_1">
+      <ColNames>rule_name</ColNames>
+      <RefSchemaName>board</RefSchemaName>
+      <RefTableName>auth_rule</RefTableName>
+      <RefColNames>name</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>set-null</OnDelete>
+    </foreign-key>
+    <column id="47" parent="14" name="parent">
+      <Position>1</Position>
+      <DataType>varchar(64)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="48" parent="14" name="child">
+      <Position>2</Position>
+      <DataType>varchar(64)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="49" parent="14" name="child">
+      <ColNames>child</ColNames>
+    </index>
+    <key id="50" parent="14" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>parent
+child</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="51" parent="14" name="auth_item_child_ibfk_1">
+      <ColNames>parent</ColNames>
+      <RefSchemaName>board</RefSchemaName>
+      <RefTableName>auth_item</RefTableName>
+      <RefColNames>name</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="52" parent="14" name="auth_item_child_ibfk_2">
+      <ColNames>child</ColNames>
+      <RefSchemaName>board</RefSchemaName>
+      <RefTableName>auth_item</RefTableName>
+      <RefColNames>name</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="53" parent="15" name="name">
+      <Position>1</Position>
+      <DataType>varchar(64)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="54" parent="15" name="data">
+      <Position>2</Position>
+      <DataType>blob|0</DataType>
+    </column>
+    <column id="55" parent="15" name="created_at">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="56" parent="15" name="updated_at">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <key id="57" parent="15" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>name</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="58" parent="16" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="59" parent="16" name="categories">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="60" parent="16" name="categories">
+      <ColNames>categories</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="61" parent="16" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="62" parent="16" name="categories">
+      <ColNames>categories</ColNames>
+      <UnderlyingIndexName>categories</UnderlyingIndexName>
+    </key>
+    <column id="63" parent="17" name="c_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="64" parent="17" name="c_city">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="65" parent="17" name="city">
+      <ColNames>c_city</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="66" parent="17" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>c_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="67" parent="17" name="city">
+      <ColNames>c_city</ColNames>
+      <UnderlyingIndexName>city</UnderlyingIndexName>
+    </key>
+    <column id="68" parent="18" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="69" parent="18" name="filePath">
+      <Position>2</Position>
+      <DataType>varchar(400)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="70" parent="18" name="itemId">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="71" parent="18" name="isMain">
+      <Position>4</Position>
+      <DataType>tinyint(1)|0</DataType>
+    </column>
+    <column id="72" parent="18" name="modelName">
+      <Position>5</Position>
+      <DataType>varchar(150)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="73" parent="18" name="urlAlias">
+      <Position>6</Position>
+      <DataType>varchar(400)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="74" parent="18" name="name">
+      <Position>7</Position>
+      <DataType>varchar(80)|0</DataType>
+    </column>
+    <key id="75" parent="18" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="76" parent="19" name="version">
+      <Position>1</Position>
+      <DataType>varchar(180)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="77" parent="19" name="apply_time">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <key id="78" parent="19" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>version</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="79" parent="20" name="po_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="80" parent="20" name="po_id_auth">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="81" parent="20" name="po_title">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="82" parent="20" name="po_description">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="83" parent="20" name="po_image">
+      <Position>5</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="84" parent="20" name="po_id_city">
+      <Position>6</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="85" parent="20" name="po_id_categories">
+      <Position>7</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="86" parent="20" name="po_price">
+      <Position>8</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="87" parent="20" name="po_status">
+      <Position>9</Position>
+      <DataType>smallint(1)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+    </column>
+    <column id="88" parent="20" name="po_data_create">
+      <Position>10</Position>
+      <DataType>datetime|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="89" parent="20" name="po_id_auth">
+      <ColNames>po_id_auth</ColNames>
+    </index>
+    <index id="90" parent="20" name="po_id_categories">
+      <ColNames>po_id_categories</ColNames>
+    </index>
+    <index id="91" parent="20" name="po_id_city">
+      <ColNames>po_id_city</ColNames>
+    </index>
+    <key id="92" parent="20" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>po_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="93" parent="21" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="94" parent="21" name="username">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="95" parent="21" name="auth_key">
+      <Position>3</Position>
+      <DataType>varchar(32)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="96" parent="21" name="password_hash">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="97" parent="21" name="password_reset_token">
+      <Position>5</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="98" parent="21" name="email">
+      <Position>6</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="99" parent="21" name="status">
+      <Position>7</Position>
+      <DataType>smallint(6)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;10&apos;</DefaultExpression>
+    </column>
+    <column id="100" parent="21" name="created_at">
+      <Position>8</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="101" parent="21" name="updated_at">
+      <Position>9</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="102" parent="21" name="data_create">
+      <Position>10</Position>
+      <DataType>datetime|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="103" parent="21" name="email">
+      <ColNames>email</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="104" parent="21" name="password_reset_token">
+      <ColNames>password_reset_token</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="105" parent="21" name="username">
+      <ColNames>username</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="106" parent="21" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="107" parent="21" name="username">
+      <ColNames>username</ColNames>
+      <UnderlyingIndexName>username</UnderlyingIndexName>
+    </key>
+    <key id="108" parent="21" name="password_reset_token">
+      <ColNames>password_reset_token</ColNames>
+      <UnderlyingIndexName>password_reset_token</UnderlyingIndexName>
+    </key>
+    <key id="109" parent="21" name="email">
+      <ColNames>email</ColNames>
+      <UnderlyingIndexName>email</UnderlyingIndexName>
+    </key>
+  </database-model>
+</dataSource>

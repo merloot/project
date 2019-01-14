@@ -1,36 +1,25 @@
 <?php
-namespace common\models;
-
-use Yii;
+namespace api\models;
+use common\models\Token;
+use common\models\User;
 use yii\base\Model;
-use yii\db\ActiveRecord;
-
 /**
- * Login form
- */
-class LoginForm extends ActiveRecord
+* Login form
+*/
+class LoginForm extends Model
 {
     public $email;
-//  public $username;
     public $password;
-    public $rememberMe = true;
-
     private $_user;
 
-
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public function rules()
     {
-        return [
-            // username and password are both required
-            [['email', 'password'], 'required'],
-            // rememberMe must be a boolean value
-            ['rememberMe', 'boolean'],
-            // password is validated by validatePassword()
-            ['password', 'validatePassword'],
-        ];
+        return [// username and password are both required
+            [['email', 'password'], 'required'], // password is validated by validatePassword()
+            ['password', 'validatePassword'],];
     }
 
     /**
@@ -51,17 +40,18 @@ class LoginForm extends ActiveRecord
     }
 
     /**
-     * Logs in a user using the provided username and password.
-     *
-     * @return bool whether the user is logged in successfully
+     * @return Token|null
      */
-    public function login()
+    public function auth()
     {
         if ($this->validate()) {
-            return Yii::$app->user->login($this->getUser(), $this->rememberMe ? 3600 * 24 * 30 : 0);
+            $token = new Token();
+            $token->user_id = $this->getUser()->id;
+            $token->generateToken(time() + 3600 * 24);
+            return $token->save() ? $token : null;
+        } else {
+            return null;
         }
-
-        return false;
     }
 
     /**
@@ -74,7 +64,6 @@ class LoginForm extends ActiveRecord
         if ($this->_user === null) {
             $this->_user = User::findByEmail($this->email);
         }
-
         return $this->_user;
     }
 }

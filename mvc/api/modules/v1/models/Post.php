@@ -88,37 +88,39 @@ class Post extends ActiveRecord
         return $this->hasOne(User::className(),['id'=>'id_autor']);
     }
 
-    public function beforeSave($insert)
+  public function beforeSave($insert)
     {
-        if ($file = UploadedFile::getInstance($this,'file'))
-        {
-            $dir = Yii::getAlias('@images').'/post/';
-            if (file_exists($dir.$this->image))
-            {
-                unlink($dir.$this->image);
-            }
-            if (file_exists($dir.'50x50/'. $this->image))
-            {
-                unlink($dir.'50x50'.$this->image);
-            }
-            if (file_exists($dir.'800x/'. $this->image))
-            {
-                unlink($dir.'800x'.$this->image);
-            }
-            $this->image = strtotime('now').'_'.Yii::$app->getSecurity()->generateRandomString(6) . '.' . $file->extension;
-            $file->saveAs($dir.$this->image);
-            $imag = Yii::$app->image->load($dir.$this->image);
-            $imag->background('#fff',0);
-            $imag->resize('50','50', Yii\image\drivers\Image::INVERSE);
-            $imag->crop('50','50');
-            $imag->save($dir.'50x50/'.$this->image,90);
-            $imag = Yii::$app->image->load($dir.$this->image);
-            $imag->background('#fff',0);
-            $imag->resize('800',null, Yii\image\drivers\Image::INVERSE);
-            $imag->save($dir.'800x/'.$this->image,90);
+        if(!parent::beforeSave($insert)) {
+            return false;
         }
-        return parent::beforeSave($insert);
-    }
+
+        if (UploadedFile::getInstance($this, 'image')) {
+            if (!$insert) {
+                @unlink(Yii::getAlias('@images') . '' . $this->getOldAttribute('image'));
+            }
+
+            $image = UploadedFile::getInstance($this, 'image');
+            $imageName = md5(date("Y-m-d H:i:s"));
+            $pathImage = Yii::getAlias('@images') . ''
+                . '/'
+                . $imageName
+                . '.'
+                . $image->getExtension();
+
+            $this->image =  $imageName .  '.' . $image->getExtension();
+            $image->saveAs($pathImage);
+//            $image = Yii::$app->image->load->$imageName($this->po_image);
+//            $image->resize('50','50', Yii\image\drivers\Image::INVERSE);
+//            $image->crope('50','50');
+//            $image->save($pathImage.$this->po_image);
+
+
+        } else {
+            $this->image = $this->getOldAttribute('image');
+        }
+
+        return true;
+}
 //    public function beforeSave($insert)
 //    {
 //        if(parent::beforeSave($insert))

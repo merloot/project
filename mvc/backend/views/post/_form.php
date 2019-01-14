@@ -17,18 +17,13 @@ use kartik\file\FileInput;
             'options'=>['enctype'=>'multipart/form-data'],
     ]); ?>
 
-<!--    --><?//= $form->field($model, 'id_autor')->textInput() ?>
-
     <?= $form->field($model, 'id_categorie')->dropDownList([
             '1'=>'Мемы',
             '2'=>'Хайп',
             '3'=>'Новинки',
     ]) ?>
-
     <?= $form->field($model, 'title')->textInput(['maxlength' => true]) ?>
-
     <?= $form->field($model, 'secondtitle')->textInput(['maxlength' => true]) ?>
-
      <?=  $form->field($model, 'image')->widget(FileInput::classname(), [
         'pluginOptions' => [
             'showCaption' => false,
@@ -39,7 +34,6 @@ use kartik\file\FileInput;
             'browseLabel' =>  'Загрузить картинку'
         ],
     ]); ?>
-
     <?=$form->field($model, 'text')->widget(Widget::className(), [
         'settings' => [
             'lang' => 'ru',
@@ -56,16 +50,7 @@ use kartik\file\FileInput;
             ],
         ],
     ])?>
-
-
-
-
-    <!--    --><?//= $form->field($model, 'views')->textInput() ?>
-<!---->
-<!--    --><?//= $form->field($model, 'rating')->textInput() ?>
-
     <?= $form->field($model, 'pubdate')->textInput() ?>
-
     <?= $form->field($model, 'id_status')->checkbox() ?>
 
     <div class="form-group">

@@ -1,5 +1,6 @@
 <?php
 namespace common\models;
+
 use Yii;
 use yii\db\ActiveRecord;
 /**
@@ -29,6 +30,7 @@ class Token extends ActiveRecord
         return [
             [['user_id', 'token'], 'required'],
             [['user_id'], 'integer'],
+            ['token','safe'],
             [['expire_time'], 'safe'],
             [['token'], 'string', 'max' => 255],
             [['id'], 'exist', 'skipOnError' => true, 'targetClass' => User::className(), 'targetAttribute' => ['id' => 'id']],
@@ -60,5 +62,10 @@ class Token extends ActiveRecord
     public static function find()
     {
         return new TokenQuery(get_called_class());
+    }
+    public function generateToken($expire)
+    {
+        $this->expire_time = $expire;
+            $this->token = \Yii::$app->security->generateRandomString();
     }
 }
